@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: rochdi1/maven-web-app:v3
+      image: rochdi1/mavenwebapp
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
